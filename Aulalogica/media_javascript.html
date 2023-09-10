@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando a média usando o JS</title>
+</head>
+
+<body>
+    <h2> Calculando a media usando o JS </h2>
+        
+    <script>
+        
+         let nota1 = parseFloat(prompt("Digite a primeira Nota:"));
+         let nota2 = parseFloat(prompt("Digite a primeira Nota:"));
+         let nota3 = parseFloat(prompt("Digite a primeira Nota:"));
+    
+         let media = (nota1+nota2+nota3)/3;
+
+         document.write  ("<h3> Sua media é: " + media + "</h3>")
+
+         if(media>=6){
+            document.write ("você está aprovado!")
+         }else{
+            if(media >=5){
+                document.write ("você está de recuperação!")
+            }else{
+                document.write("você está reprovado!")
+            }
+         }
+
+
+
+    </script>
+    
+</body>
+</html>

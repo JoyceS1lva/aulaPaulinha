@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+</head>
+<body>
+    <h1> Exercicio 8 </h1>
+    <script>
+
+        let numero1 = parseFloat (prompt("Digite o primeiro numero"))
+        let numero2 = parseFloat (prompt("Digite o segundo numero"))
+        let numero3 = parseFloat (prompt("Digite o terceiro numero"))
+        let numero4 = parseFloat (prompt("Digite o quarto numero"))
+        let soma = 0
+
+        if(numero1>0 && numero1<10){
+            soma = soma + numero1
+        }if(numero2>0 && numero2<10){
+            soma = soma + numero2
+        }if(numero3>0 && numero3<10){
+            soma = soma + numero3
+        }if(numero4>0 && numero4<10){
+            soma = soma + numero4
+        }
+
+        let media = soma/4
+
+        document.write("a media dos numeros é: " + media + "<br>")
+
+        if(media>5){
+            document.write ("Parabens você passou!")
+        }else{
+            document.write ("Tente novamente")
+        }
+
+
+        
+
+
+
+
+
+    
+
+</script>
+    
+</body>
+</html>
